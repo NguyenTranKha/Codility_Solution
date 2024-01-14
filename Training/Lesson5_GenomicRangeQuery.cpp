@@ -4,6 +4,11 @@
 // you can write to stdout for debugging purposes, e.g.
 // cout << "this is a debug message" << endl;
 
+// A: 0 0 1 1 1 1 1 2
+// B: 0 1 1 1 2 3 3 3
+// G: 0 0 0 1 1 1 1 1
+// T: 0 0 0 0 0 0 0 1
+
 vector<int> solution(string &S, vector<int> &P, vector<int> &Q) {
     // Implement your solution here
     int Snumber = S.end() - S.begin();
